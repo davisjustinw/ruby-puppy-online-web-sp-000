@@ -14,7 +14,6 @@ class Dog
   end
   
   def self.all
-    binding.pry
     puts @@all.inspect
   end
 end
